@@ -1,4 +1,4 @@
-package builderpattern
+package houbebuilder
 
 type NormalBuilder struct {
 	House
@@ -9,7 +9,7 @@ func (nb *NormalBuilder) SetWindowType(windowType string) {
 }
 
 func (nb *NormalBuilder) SetDoorType(doorType string) {
-	nb.House.DoorType = doorType
+	nb.DoorType = doorType
 }
 
 func (nb *NormalBuilder) SetNumOfFloor(floor int) {

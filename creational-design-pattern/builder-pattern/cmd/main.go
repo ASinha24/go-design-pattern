@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	bp "github.com/asinha24/go-design-pattern/creational-design-pattern/builder-pattern"
+	bp "github.com/asinha24/go-design-pattern/creational-design-pattern/builder-pattern/houbebuilder"
 )
 
 func main() {
