@@ -1,4 +1,4 @@
-package builderpattern
+package houbebuilder
 
 type House struct {
 	WindowType string

@@ -1,4 +1,4 @@
-package builderpattern
+package houbebuilder
 
 type IBuilder interface {
 	SetWindowType(string)
